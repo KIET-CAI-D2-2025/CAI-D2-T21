@@ -1,0 +1,173 @@
+/* Classic Background Styling */
+body {
+    font-family: 'Georgia', serif;
+    background: url('https://www.toptal.com/designers/subtlepatterns/uploads/dark_mosaic.png');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Container Styling */
+.container {
+    width: 60%;
+    margin: auto;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.85);
+    border-radius: 12px;
+    box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.3);
+}
+
+/* Headings */
+h1 {
+    color: #f8f9fa;
+    font-size: 32px; /* Increased font size */
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 28px; /* Large and prominent */
+    margin-bottom: 15px;
+}
+
+/* Buttons */
+button, input[type="file"] {
+    margin-top: 25px;
+    padding: 12px 24px;
+    font-size: 18px; /* Bigger buttons for better UX */
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+input[type="file"] {
+    display: block;
+    margin: 20px auto;
+    background: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 18px;
+}
+
+button {
+    background-color: #ff9800;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #e68900;
+    transform: scale(1.08);
+}
+
+/* Links */
+a {
+    display: block;
+    margin-top: 20px;
+    color: #f8f9fa;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #ffa726;
+}
+
+/* Classic Background Styling */
+body {
+    font-family: 'Georgia', serif;
+    background: url('https://www.toptal.com/designers/subtlepatterns/uploads/dark_mosaic.png');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Container Styling */
+.container {
+    width: 60%;
+    margin: auto;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.85);
+    border-radius: 12px;
+    box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.3);
+}
+
+/* Headings */
+h1 {
+    color: #f8f9fa;
+    font-size: 32px; /* Increased font size */
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 28px; /* Large and prominent */
+    margin-bottom: 15px;
+}
+
+/* Buttons */
+button, input[type="file"] {
+    margin-top: 25px;
+    padding: 12px 24px;
+    font-size: 18px; /* Bigger buttons for better UX */
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+input[type="file"] {
+    display: block;
+    margin: 20px auto;
+    background: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 18px;
+}
+
+button {
+    background-color: #ff9800;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #e68900;
+    transform: scale(1.08);
+}
+
+/* Links */
+a {
+    display: block;
+    margin-top: 20px;
+    color: #f8f9fa;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #ffa726;
+}
+
+/* Upload Button Positioning */
+.upload-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.upload-container button {
+    margin-top: 15px;
+}
