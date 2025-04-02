@@ -12,7 +12,7 @@ UPLOAD_FOLDER = 'uploads'
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
-# Load pre-trained model
+
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 weights = R3D_18_Weights.KINETICS400_V1
 model = r3d_18(weights=weights).to(device)
