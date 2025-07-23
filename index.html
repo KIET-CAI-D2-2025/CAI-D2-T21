@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Action Recognition</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Upload a Video to Recognize the Action</h1>
+
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept="video/mp4">
+        <input type="submit" value="Upload">
+    </form>
+
+    {% if results %}
+        <h2>Prediction Result</h2>
+        <p><strong>Action:</strong> {{ results[0].action }}</p>
+        <p><strong>Confidence:</strong> {{ results[0].accuracy }}</p>
+
+        <video width="480" controls>
+            <source src="{{ url_for('static', filename='uploads/' + filename) }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+        <br><br>
+        <a href="/">Upload Another Video</a>
+    {% endif %}
+</body>
+</html>
